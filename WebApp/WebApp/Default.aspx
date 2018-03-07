@@ -14,6 +14,21 @@
                 &nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Say Hello" />
                 <asp:Label ID="Label1" runat="server" Text="  Hello World Again!!!!!!" Visible="False"></asp:Label>
             </p>
+            <p>
+                &nbsp;</p>
+            <p>
+                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            </p>
+            <p>
+                <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+            </p>
+            <p>
+                <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
+            </p>
+            <p>
+                &nbsp;</p>
+            <p>
+                &nbsp;</p>
         </div>
         <div class="col-md-4">
             <h2>Get more libraries</h2>

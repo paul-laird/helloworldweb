@@ -18,5 +18,10 @@ namespace WebApp
         {
             Label1.Visible = true;
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Label2.Text = "Hello " + TextBox1.Text + ", how do you like github?";
+        }
     }
 }
